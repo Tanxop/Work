@@ -1,0 +1,30 @@
+*{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+     margin:0;
+     background-image: url();
+     opacity: 200%;
+     background-size: 100px;
+     background-repeat: no-repeat;
+     background-position: right;
+     background-color: black;    
+     color: rgb(228, 115, 253);
+}
+
+@keyframes colors{ 
+     0% {color:rgb(255, 188, 188);}
+     20%{color:rgb(255, 198, 92);}
+     40%{color:rgb(119, 255, 92);}
+     60%{color: rgb(142, 21, 255);}
+     80%{color:rgb(0, 119, 255);}
+     100%{color:rgb(255, 0, 119);}
+}
+
+h2 ,h3 ,h1 {
+     animation: colors 3s linear infinite alternate;
+}
+
+
+
